@@ -105,6 +105,11 @@ public class ResTest {
   }
 
 
+  jdbcDriverClassName=com.mysql.jdbc.Driver
+  jdbcUrl=jdbc:mysql://$Database_Address$/$Database_Schema$
+  #jdbcSchema=$Database_Schema$
+  jdbcLogin=$Database_User$
+  jdbcPass=$Database_Password$
   /**
    * 
    * Second Test for the NewTestCase_ID964550 method.
@@ -134,11 +139,6 @@ public class ResTest {
 
     
   }
-  jdbcDriverClassName=com.mysql.jdbc.Driver
-  jdbcUrl=jdbc:mysql://$Database_Address$/$Database_Schema$
-  #jdbcSchema=$Database_Schema$
-  jdbcLogin=$Database_User$
-  jdbcPass=$Database_Password$
 
 
 
